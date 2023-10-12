@@ -1,0 +1,42 @@
+body {
+  background-color : #f1f1f1 !important;
+  font-family: 'Gabarito', sans-serif !important;
+  background: rgb(249,136,241);
+background: linear-gradient(40deg, rgba(249,136,241,1) 0%, rgba(235,142,255,1) 51%, rgba(63,223,255,1) 100%);
+  background-repeat: no-repeat;
+}
+
+main {
+  max-width: 645px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+}
+
+.wrapper {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+  width : 4px
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
